@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wind.uo.mapper.UserMapper">
+
+    <select id="queryPoints" resultType="com.wind.uo.domain.User">
+        select * from t_user where user_id=#{userId};
+    </select>
+
+    <update id="addPoints">
+        update t_user set points=points+${money} where user_id=#{userId}
+    </update>
+
+</mapper>

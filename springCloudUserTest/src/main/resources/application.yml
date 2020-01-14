@@ -1,0 +1,26 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka,http://localhost:8889/eureka
+server:
+  #  端口
+  port: 8091
+  #  项目名称
+  context-path: /
+
+spring:
+  application:
+    name: service-user
+  datasource:
+    #数据库驱动名
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #数据库地址
+    url: jdbc:mysql:///eedb?serverTimezone=UTC&characterEncoding=utf-8
+    #数据库用户名
+    username: root
+    #数据库密码
+    password: root
+
+mybatis:
+  #mybatis映射文件所在位置
+  mapper-locations: classpath:mappers/*.xml

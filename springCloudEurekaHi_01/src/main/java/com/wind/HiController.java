@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController//相当于同时使用Controller 和ResponseBody
 public class HiController {
-    @RequestMapping("hi")
+    @RequestMapping("/hi")
     //@ResponseBody
     public String sayHi(String name){
         return "hello world "+name+",i am from 9001";

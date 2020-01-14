@@ -6,17 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springCloudEurekaServer02" />
-        <module name="springCloudEurekaHi_01" />
+        <module name="springCloudUserTest" />
+        <module name="springCloudEurekaHi_03" />
         <module name="springCloudEurekaHi_02" />
-        <module name="springCloudEurekaServer01" />
+        <module name="springCloudEurekaHi_01" />
+        <module name="springCloudOrderTest" />
         <module name="springCloudRibbon" />
+        <module name="springCloudEurekaServer02" />
+        <module name="springCloudEurekaServer01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-cloud-eureka-server01" target="12" />
       <module name="springCloudEureka" target="12" />
       <module name="springCloudEurekaHi" target="12" />
+      <module name="springcloudordertest" target="12" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

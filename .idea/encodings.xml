@@ -2,12 +2,14 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springCloudEureka" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springCloudEurekaHi" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-order-test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springCloudEurekaHi_01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springCloudEurekaHi_02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloudEurekaHi_03" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springCloudEurekaServer01" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springCloudEurekaServer02" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloudOrderTest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springCloudRibbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springCloudUserTest" charset="UTF-8" />
   </component>
 </project>
