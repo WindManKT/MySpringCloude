@@ -1,0 +1,20 @@
+server:
+  port: 8103
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka,http://localhost:8889/eureka
+zuul:
+  routes:
+    api-a:
+      path: /zuul-a/**
+      service-id: eureka-Hi
+    api-b:
+      path: /zuul-b/**
+      service-id: service-ribbon
+    user:
+      path: /service-user/**
+      service-id: service-user
+    order:
+      path: /service-order/**
+      service-id: service-order

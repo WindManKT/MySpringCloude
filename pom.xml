@@ -18,6 +18,7 @@
     <module>springCloudRibbon</module>
     <module>springCloudOrderTest</module>
       <module>springCloudUserTest</module>
+      <module>springCloudGateway01</module>
   </modules>
 
   <properties>
